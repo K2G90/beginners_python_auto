@@ -2,6 +2,9 @@
 print("Hello, World!")
 name = input("What is your name? ")
 print("Hello, " + name + "! It's nice to meet you.")
+#This program will tell me the length of my name
+name_length = len(name)
+print("Your name has " + str(name_length) + " characters.")
 # This program will then ask for my age
 age = input("How old are you? ")
 print("You are " + age + " years old!")
