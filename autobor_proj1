@@ -1,0 +1,10 @@
+#this program is going to say hello and then ask my name
+print("Hello, World!")
+name = input("What is your name? ")
+print("Hello, " + name + "! It's nice to meet you.")
+# This program will then ask for my age
+age = input("How old are you? ")
+print("You are " + age + " years old!")
+#This program will then tell me my age in 5 years
+age_in_5_years = int(age) + 5
+print("In 5 years, you will be " + str(age_in_5_years) + " years old!")
